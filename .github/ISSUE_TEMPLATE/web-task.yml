@@ -1,0 +1,25 @@
+name: "💻 网页开发任务"
+description: "官网/数字品牌手册功能与视觉修改"
+title: "[网页] "
+body:
+  - type: textarea
+    id: page
+    attributes:
+      label: "页面与目的"
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: "内容、交互与响应式要求"
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: "品牌素材、页面参考、依赖条件"
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "验收方式"
+      description: "屏幕尺寸、链接可用性、可访问性、加载和品牌核对"

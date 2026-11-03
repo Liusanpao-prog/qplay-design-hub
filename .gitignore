@@ -1,0 +1,33 @@
+# Operating system and editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+~$*
+.vscode/
+.idea/
+# Secrets and env files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Build files
+node_modules/
+dist/
+build/
+.cache/
+# Working / source design files kept out of repository by default
+*.psd
+*.psb
+*.ai
+*.indd
+*.aep
+*.sketch
+*.fig
+*.blend
+*.dwg
+*.dxf
+*.zip
+*.7z
+*.rar

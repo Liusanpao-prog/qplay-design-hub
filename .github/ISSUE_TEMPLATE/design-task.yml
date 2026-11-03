@@ -1,0 +1,39 @@
+name: "🎨 设计任务"
+description: "品牌海报、空间墙面、VI物料等设计需求"
+title: "[设计] "
+labels: []
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: "业务模块"
+      options: ["品牌规范","IP角色","空间视觉","宣传物料","其他"]
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: "目标及使用场景"
+      description: "受众、位置、品牌、用途、必须呈现的信息"
+    validations:
+      required: true
+  - type: textarea
+    id: specs
+    attributes:
+      label: "尺寸及施工/输出要求"
+      description: "长宽单位、门/柱/设备位置、出血、材质等"
+  - type: textarea
+    id: copy
+    attributes:
+      label: "最终文案及参考素材"
+      description: "未确认的文案或原始素材请写“待确认”"
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "优先级"
+      options: ["P1 高","P2 常规","P3 研究","P0 紧急"]
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "验收标准"
+      description: "文字准确、品牌一致性、制作可行性及交付清单"
