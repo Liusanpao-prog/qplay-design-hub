@@ -1,33 +1,14 @@
-# Operating system and editor temporary files
+# Local / generated artifacts
 .DS_Store
 Thumbs.db
 *.tmp
 *.bak
-~$*
-.vscode/
-.idea/
-# Secrets and env files
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-# Build files
+*.log
 node_modules/
 dist/
 build/
-.cache/
-# Working / source design files kept out of repository by default
-*.psd
-*.psb
-*.ai
-*.indd
-*.aep
-*.sketch
-*.fig
-*.blend
-*.dwg
-*.dxf
-*.zip
-*.7z
-*.rar
+.env
+.env.*
+!.env.example
+# Do not blindly commit raw private assets
+private-assets/
